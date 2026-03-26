@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid with Tailwind CSS</title>
+    <link rel="stylesheet" href="../output.css">
+</head>
+<body class="bg-gray-700 text-white">
+    <h1 class="text-4xl font-bold">Display Grid and its relative properties :</h1>
+
+    <h1 class="text-3xl mt-15">Grid template - Equal columns (3 of 1fr):</h1>
+    <div class="w-screen p-1 m-2 bg-blue-400 container grid grid-cols-3 gap-1.5">
+        <div class="bg-white text-3xl p-3">1</div>
+        <div class="bg-white text-3xl p-3">2</div>
+        <div class="bg-white text-3xl p-3">3</div>
+        <div class="bg-white text-3xl p-3">4</div>
+        <div class="bg-white text-3xl p-3">5</div>
+        <div class="bg-white text-3xl p-3">6</div>
+    </div>
+
+    <h1 class="text-3xl mt-15">Grid template - Customized columns (100px, 100px, 1fr):</h1>
+    <div class="w-screen p-1 m-2 bg-blue-400 container grid grid-cols-[100px_100px_auto] gap-1.5">
+        <div class="bg-white text-3xl p-3">1</div>
+        <div class="bg-white text-3xl p-3">2</div>
+        <div class="bg-white text-3xl p-3">3</div>
+        <div class="bg-white text-3xl p-3">4</div>
+        <div class="bg-white text-3xl p-3">5</div>
+        <div class="bg-white text-3xl p-3">6</div>
+    </div>
+
+    <h1 class="text-3xl mt-15">Grid template - Customized columns (1fr, 3fr, 1fr):</h1>
+    <div class="w-screen p-1 m-2 bg-blue-400 container grid grid-cols-[1fr_3fr_1fr] gap-1.5">
+        <div class="bg-white text-3xl p-3">1</div>
+        <div class="bg-white text-3xl p-3">2</div>
+        <div class="bg-white text-3xl p-3">3</div>
+        <div class="bg-white text-3xl p-3">4</div>
+        <div class="bg-white text-3xl p-3">5</div>
+        <div class="bg-white text-3xl p-3">6</div>
+    </div>
+
+    <h1 class="text-4xl mt-15 font-bold">Same for the Grid template-rows :</h1>
+
+    <h1 class="text-3xl mt-15">Grid template - Customized rows (80px, 200px, auto):</h1>
+    <div class="w-screen p-1 m-2 bg-blue-400 container grid grid-cols-[repeat(2,1fr)] grid-rows-[80px_200px] gap-1.5">
+        <div class="bg-white text-3xl p-3">1</div>
+        <div class="bg-white text-3xl p-3">2</div>
+        <div class="bg-white text-3xl p-3">3</div>
+        <div class="bg-white text-3xl p-3">4</div>
+        <div class="bg-white text-3xl p-3">5</div>
+        <div class="bg-white text-3xl p-3">6</div>
+    </div>
+
+    <h1 class="text-4xl mt-15 font-bold">justify content properties :</h1>
+
+    <h1 class="text-3xl mt-15">justify-center :</h1>
+    <div class="w-screen p-1 m-2 bg-blue-400 container grid grid-cols-[repeat(3,70px)] gap-1.5 justify-center">
+        <div class="bg-white text-3xl p-3">1</div>
+        <div class="bg-white text-3xl p-3">2</div>
+        <div class="bg-white text-3xl p-3">3</div>
+        <div class="bg-white text-3xl p-3">4</div>
+        <div class="bg-white text-3xl p-3">5</div>
+        <div class="bg-white text-3xl p-3">6</div>
+    </div>
+
+    <h1 class="text-3xl mt-15">justify-between :</h1>
+    <div class="w-screen p-1 m-2 bg-blue-400 container grid grid-cols-[repeat(3,70px)] gap-1.5 justify-between">
+        <div class="bg-white text-3xl p-3">1</div>
+        <div class="bg-white text-3xl p-3">2</div>
+        <div class="bg-white text-3xl p-3">3</div>
+        <div class="bg-white text-3xl p-3">4</div>
+        <div class="bg-white text-3xl p-3">5</div>
+        <div class="bg-white text-3xl p-3">6</div>
+    </div>
+
+    <h1 class="text-3xl mt-15">justify-around :</h1>
+    <div class="w-screen p-1 m-2 bg-blue-400 container grid grid-cols-[repeat(3,70px)] gap-1.5 justify-around">
+        <div class="bg-white text-3xl p-3">1</div>
+        <div class="bg-white text-3xl p-3">2</div>
+        <div class="bg-white text-3xl p-3">3</div>
+        <div class="bg-white text-3xl p-3">4</div>
+        <div class="bg-white text-3xl p-3">5</div>
+        <div class="bg-white text-3xl p-3">6</div>
+    </div>
+
+    <h1 class="text-3xl mt-15">justify-evenly :</h1>
+    <div class="w-screen p-1 m-2 bg-blue-400 container grid grid-cols-[repeat(3,70px)] gap-1.5 justify-evenly">
+        <div class="bg-white text-3xl p-3">1</div>
+        <div class="bg-white text-3xl p-3">2</div>
+        <div class="bg-white text-3xl p-3">3</div>
+        <div class="bg-white text-3xl p-3">4</div>
+        <div class="bg-white text-3xl p-3">5</div>
+        <div class="bg-white text-3xl p-3">6</div>
+    </div>
+
+    <h1 class="text-3xl mt-15">justify-start :</h1>
+    <div class="w-screen p-1 m-2 bg-blue-400 container grid grid-cols-[repeat(3,70px)] gap-1.5 justify-start">
+        <div class="bg-white text-3xl p-3">1</div>
+        <div class="bg-white text-3xl p-3">2</div>
+        <div class="bg-white text-3xl p-3">3</div>
+        <div class="bg-white text-3xl p-3">4</div>
+        <div class="bg-white text-3xl p-3">5</div>
+        <div class="bg-white text-3xl p-3">6</div>
+    </div>
+
+    <h1 class="text-3xl mt-15">justify-end :</h1>
+    <div class="w-screen p-1 m-2 bg-blue-400 container grid grid-cols-[repeat(3,70px)] gap-1.5 justify-end">
+        <div class="bg-white text-3xl p-3">1</div>
+        <div class="bg-white text-3xl p-3">2</div>
+        <div class="bg-white text-3xl p-3">3</div>
+        <div class="bg-white text-3xl p-3">4</div>
+        <div class="bg-white text-3xl p-3">5</div>
+        <div class="bg-white text-3xl p-3">6</div>
+    </div>
+</body>
+</html>
