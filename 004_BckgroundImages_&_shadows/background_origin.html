@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bg origin property in Tailwind</title>
+    <link rel="stylesheet" href="../output.css">
+</head>
+<body class="m-5 flex flex-col gap-y-6">
+    <h1 class="font-medium text-2xl">We have three properties in Bg origin prop which is bg-border-box, bg-padding-box and bg-content-box</h1>
+
+    <h1 class="font-medium text-2xl">bg-origin-border :</h1>
+    <div class="size-100 p-5 bg-gray-300 border-8 border-red-600 rounded-[5px] bg-[url('004_BckgroundImages_&_shadows/papper.png')] bg-cover bg-no-repeat bg-origin-border">
+    </div>
+
+    <h1 class="font-medium text-2xl">bg-origin-padding :</h1>
+    <div class="size-100 p-5 bg-gray-300 border-8 border-red-600 rounded-[5px] bg-[url('004_BckgroundImages_&_shadows/papper.png')] bg-cover bg-no-repeat bg-origin-padding">
+    </div>
+
+    <h1 class="font-medium text-2xl">bg-origin-content :</h1>
+    <div class="size-100 p-5 bg-gray-300 border-8 border-red-600 rounded-[5px] bg-[url('004_BckgroundImages_&_shadows/papper.png')] bg-cover bg-no-repeat bg-origin-content">
+    </div>
+
+    <h1>Bg clip is almost similar to the bg origin. the only difference is when you wanna work with bg image you need bg-origin and when you wanna work with bg-color then you need bg-clip.</h1>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bg size properties with Tailwind CSS</title>
+    <link rel="stylesheet" href="../output.css">
+</head>
+<body class="m-5">
+    <h1 class="font-medium text-3xl mb-5">With this Bg-size properties we can scale the bg images to fit in the element or to fill the all element</h1>
+    
+    <h1 class="font-medium text-3xl mb-5">Bg size auto : (keeps image as it is, dose nothing) :</h1>
+    <div class="h-150 w-100 bg-blue-300 bg-[url('https://images.pexels.com/photos/36534177/pexels-photo-36534177.jpeg?_gl=1*nhn509*_ga*NzgwMTEzMTE1LjE3NzQ4NDc1NTY.*_ga_8JE65Q40S6*czE3NzQ4NDc1NTUkbzEkZzEkdDE3NzQ4NDc1ODIkajMzJGwwJGgw')] bg-auto"></div>
+
+    <h1 class="font-medium text-3xl mb-5">Bg size cover : (this helps to fill the image within the content. it maintains the aspect ratio of element and hides the overflow) :</h1>
+    <div class="h-150 w-100 bg-blue-300 bg-[url('https://images.pexels.com/photos/36534177/pexels-photo-36534177.jpeg?_gl=1*nhn509*_ga*NzgwMTEzMTE1LjE3NzQ4NDc1NTY.*_ga_8JE65Q40S6*czE3NzQ4NDc1NTUkbzEkZzEkdDE3NzQ4NDc1ODIkajMzJGwwJGgw')] bg-cover"></div>
+
+    <h1 class="font-medium text-3xl mb-5">Bg size auto : (this prop don't care about the aspect ratio of element, it just make the image fit in the element and image will not go beyond the elements size. bg-repeat is set by default) :</h1>
+    <div class="h-150 w-150 bg-blue-300 bg-[url('https://images.pexels.com/photos/36534177/pexels-photo-36534177.jpeg?_gl=1*nhn509*_ga*NzgwMTEzMTE1LjE3NzQ4NDc1NTY.*_ga_8JE65Q40S6*czE3NzQ4NDc1NTUkbzEkZzEkdDE3NzQ4NDc1ODIkajMzJGwwJGgw')] bg-contain bg-no-repeat bg-center"></div>
+</body>
+</html>
