@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Color in Tailwind CSS</title>
+    <link rel="stylesheet" href="../output.css">
+</head>
+<body class="bg-gray-500 m-5 grid grid-cols-[repeat(2,minmax(300px,1fr))] gap-5"> 
+   <div class="bg-red-400 h-60 rounded-md border-3 border-black flex flex-col justify-center  content-center bg-linear-to-t from-blue-500 to-pink-600">
+    <h1 class="font-bold text-[20px] text-black text-center p-5">linear Gradient color flowing top to bottom :</h1>
+   </div>
+
+   <div class="bg-red-400 h-60 rounded-md border-3 border-black flex flex-col justify-center  content-center bg-linear-to-r from-blue-500 to-pink-600">
+    <h1 class="font-bold text-[20px] text-black text-center p-5">linear Gradient color flowing left to right :</h1>
+   </div>
+
+   <div class="bg-red-400 h-60 rounded-md border-3 border-black flex flex-col justify-center  content-center bg-linear-45 from-blue-500 to-pink-600">
+    <h1 class="font-bold text-[20px] text-black text-center p-5">linear Gradient color flowing in 45 degrees :</h1>
+   </div>
+
+   <div class="bg-red-400 h-60 rounded-md border-3 border-black flex flex-col justify-center  content-center bg-linear-[-45deg] from-blue-500 to-pink-600">
+    <h1 class="font-bold text-[20px] text-black text-center p-5">linear Gradient color flowing in -45 degrees :</h1>
+   </div>
+
+   <div class="bg-red-400 h-60 rounded-md border-3 border-black flex flex-col justify-center  content-center bg-linear-to-b from-orange-400 via-white to-green-700">
+    <h1 class="font-bold text-[20px] text-black text-center p-5">adding three colors to a Gradient colored element :</h1>
+   </div>
+
+   <div class="bg-red-400 h-60 rounded-md border-3 border-black flex flex-col justify-center  content-center bg-linear-to-l from-violet-400 from-15% via-blue-400 via-35% to-pink-500 to-90%">
+    <h1 class="font-bold text-[20px] text-black text-center p-5">adding three colors in fractions:</h1>
+   </div>
+
+</body>
+</html>

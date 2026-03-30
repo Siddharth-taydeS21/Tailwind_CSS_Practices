@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadows with Tailwind CSS</title>
+    <link rel="stylesheet" href="../output.css">
+</head>
+<body class="bg-gray-700 m-5 grid grid-cols-[repeat(2,minmax(300px,1fr))] gap-5">
+    <div class="h-75 bg-white rounded-md flex flex-col justify-center items-center gap-5">
+        box Shadow extra small :
+        <div class="size-45 bg-white rounded-[5px] shadow-xs"></div>
+    </div>
+
+    <div class="h-75 bg-white rounded-md flex flex-col justify-center items-center gap-5">
+        box Shadow small :
+        <div class="size-45 bg-white rounded-[5px] shadow-sm"></div>
+    </div>
+    
+    <div class="h-75 bg-white rounded-md flex flex-col justify-center items-center gap-5">
+        box Shadow medium :
+        <div class="size-45 bg-white rounded-[5px] shadow-md"></div>
+    </div>
+    
+    <div class="h-75 bg-white rounded-md flex flex-col justify-center items-center gap-5">
+        box Shadow large :
+        <div class="size-45 bg-white rounded-[5px] shadow-lg"></div>
+    </div>
+
+    <div class="h-75 bg-white rounded-md flex flex-col justify-center items-center gap-5">
+        box Shadow extra large :
+        <div class="size-45 bg-white rounded-[5px] shadow-xl"></div>
+    </div>
+
+    <div class="h-75 bg-white rounded-md flex flex-col justify-center items-center gap-5">
+        box Shadow extra large 2 times :
+        <div class="size-45 bg-white rounded-[5px] shadow-2xl"></div>
+    </div>
+
+    <div class="h-75 bg-white rounded-md flex flex-col justify-center items-center gap-5">
+        shadow with respective color (custom css shadow):
+        <div class="size-45 bg-indigo-300  rounded-[5px] shadow-[20px_19px_50px_-12px_rgb(30,1,1,0.25)]"></div>
+    </div>
+
+    <div class="h-75 bg-white rounded-md flex flex-col justify-center items-center gap-5">
+        inset shadow (custom value):
+        <div class="size-45 bg-white  rounded-[5px] inset-shadow-[0px_4px_12px_3px_rgb(0,0,0,0.05)]"></div>
+    </div>
+
+    <div class="h-75 bg-white rounded-md flex flex-col justify-center items-center gap-5">
+        inset shadow normal :
+        <div class="size-45 bg-indigo-300  rounded-[5px] inset-shadow-sm inset-shadow-indigo-500"></div>
+    </div>
+</body>
+</html>
