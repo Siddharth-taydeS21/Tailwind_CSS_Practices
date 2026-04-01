@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform Classes in Tailwind</title>
+    <link rel="stylesheet" href="../output.css">
+</head>
+<body class="w-full p-5 bg-gray-700">
+    <h1 class="font-bold text-2xl text-white mb-5 text-center">Basic Transform classes :</h1>
+    <div class="w-full grid grid-cols-[repeat(2,minmax(300px,1fr))] gap-5">
+        <div class="p-5 h-60 bg-gray-500 rounded-md flex justify-center">
+            <div class="bg-red-400 rounded-md w-2/5 h-full">
+                <div class="w-full h-full rounded-md p-3 bg-blue-300 flex justify-around items-center font-bold text-lg translate-3"> Transform : translate in both axis</div>
+            </div>
+        </div>
+
+        <div class="p-5 h-60 bg-gray-500 rounded-md flex justify-center">
+            <div class="bg-red-400 rounded-md w-2/5 h-full">
+                <div class="w-full h-full rounded-md p-3 bg-blue-300 flex justify-around items-center font-bold text-lg translate-x-3"> Transform : translate in only x axis</div>
+            </div>
+        </div>
+
+        <div class="p-5 h-60 bg-gray-500 rounded-md flex justify-center">
+            <div class="bg-red-400 rounded-md w-2/5 h-full">
+                <div class="w-full h-full rounded-md p-3 bg-blue-300 flex justify-around items-center font-bold text-lg -translate-x-3"> Transform : translate in only x axis opposite</div>
+            </div>
+        </div>
+
+        <div class="p-5 h-60 bg-gray-500 rounded-md flex justify-center">
+            <div class="bg-red-400 rounded-md w-2/5 h-full">
+                <div class="w-full h-full rounded-md p-3 bg-blue-300 flex justify-around items-center font-bold text-lg translate-y-3"> Transform : translate in only y axis</div>
+            </div>
+        </div>
+
+        <div class="p-5 h-60 bg-gray-500 rounded-md flex justify-center">
+            <div class="bg-red-400 rounded-md w-2/5 h-full">
+                <div class="w-full h-full rounded-md p-3 bg-blue-300 flex justify-around items-center font-bold text-lg -translate-y-3"> Transform : translate in only y axis opposite</div>
+            </div>
+        </div>
+
+        <div class="p-5 h-60 bg-gray-500 rounded-md flex justify-center">
+            <div class="bg-red-400 rounded-md w-2/5 h-full">
+                <div class="w-full h-full rounded-md p-3 bg-blue-300 flex justify-around items-center font-bold text-lg rotate-45"> Transform : rotate-45 </div>
+            </div>
+        </div>
+
+        <div class="p-5 h-60 bg-gray-500 rounded-md flex justify-center">
+            <div class="bg-red-400 rounded-md w-2/5 h-full">
+                <div class="w-full h-full rounded-md p-3 bg-blue-300 flex justify-around items-center font-bold text-lg rotate-90"> Transform : rotate-90 </div>
+            </div>
+        </div>
+
+        <div class="p-5 h-60 bg-gray-500 rounded-md flex justify-center">
+            <div class="bg-red-400 rounded-md w-2/5 h-full">
+                <div class="w-full h-full rounded-md p-3 bg-blue-300 flex justify-around items-center font-bold text-lg rotate-x-30"> Transform : rotate in x axis </div>
+            </div>
+        </div>
+
+        <div class="p-5 h-60 bg-gray-500 rounded-md flex justify-center">
+            <div class="bg-red-400 rounded-md w-2/5 h-full">
+                <div class="w-full h-full rounded-md p-3 bg-blue-300 flex justify-around items-center font-bold text-lg rotate-y-30"> Transform : rotate in y axis </div>
+            </div>
+        </div>
+
+        <div class="p-5 h-60 bg-gray-500 rounded-md flex justify-center">
+            <div class="bg-red-400 rounded-md w-2/5 h-full">
+                <div class="w-full h-full rounded-md p-3 bg-blue-300 flex justify-around items-center font-bold text-lg scale-75"> Transform : scale-75 </div>
+            </div>
+        </div>
+
+        <div class="p-5 h-60 bg-gray-500 rounded-md flex justify-center">
+            <div class="bg-red-400 rounded-md w-2/5 h-full">
+                <div class="w-full h-full rounded-md p-3 bg-blue-300 flex justify-around items-center font-bold text-lg scale-125"> Transform : scale-125 </div>
+            </div>
+        </div>
+
+        <div class="p-5 h-60 bg-gray-500 rounded-md flex justify-center">
+            <div class="bg-red-400 rounded-md w-2/5 h-full">
+                <div class="w-full h-full rounded-md p-3 bg-blue-300 flex justify-around items-center font-bold text-lg scale-x-125"> Transform : scale-125 in x axis </div>
+            </div>
+        </div>
+
+        <div class="p-5 h-60 bg-gray-500 rounded-md flex justify-center">
+            <div class="bg-red-400 rounded-md w-2/5 h-full">
+                <div class="w-full h-full rounded-md p-3 bg-blue-300 flex justify-around items-center font-bold text-lg scale-y-125"> Transform : scale-125 in y axis </div>
+            </div>
+        </div>
+
+        <div class="p-5 h-60 bg-gray-500 rounded-md flex justify-center">
+            <div class="bg-red-400 rounded-md w-2/5 h-full">
+                <div class="w-full h-full rounded-md p-3 bg-blue-300 flex justify-around items-center font-bold text-lg skew-6"> Transform : skew-6 </div>
+            </div>
+        </div>
+
+        <div class="p-5 h-60 bg-gray-500 rounded-md flex justify-center">
+            <div class="bg-red-400 rounded-md w-2/5 h-full">
+                <div class="w-full h-full rounded-md p-3 bg-blue-300 flex justify-around items-center font-bold text-lg skew-x-6"> Transform : skew-6 in x axis</div>
+            </div>
+        </div>
+
+        <div class="p-5 h-60 bg-gray-500 rounded-md flex justify-center">
+            <div class="bg-red-400 rounded-md w-2/5 h-full">
+                <div class="w-full h-full rounded-md p-3 bg-blue-300 flex justify-around items-center font-bold text-lg skew-y-6"> Transform : skew-6 in y axis</div>
+            </div>
+        </div>
+
+        <div class="p-5 h-60 bg-gray-500 rounded-md flex justify-center">
+            <div class="bg-red-400 rounded-md w-2/5 h-full">
+                <div class="w-full h-full rounded-md p-3 bg-blue-300 flex justify-around items-center font-bold text-lg origin-center rotate-30"> Transform : origin center rotate</div>
+            </div>
+        </div>
+
+        <div class="p-5 h-60 bg-gray-500 rounded-md flex justify-center">
+            <div class="bg-red-400 rounded-md w-2/5 h-full">
+                <div class="w-full h-full rounded-md p-3 bg-blue-300 flex justify-around items-center font-bold text-lg origin-top-right -rotate-10"> Transform : origin top-right rotate</div>
+            </div>
+        </div>
+
+        <div class="p-5 h-60 bg-gray-500 rounded-md flex justify-center">
+            <div class="bg-red-400 rounded-md w-2/5 h-full">
+                <div class="w-full h-full rounded-md p-3 bg-blue-300 flex justify-around items-center font-bold text-lg origin-bottom-left -rotate-10"> Transform : origin bottom-left rotate</div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
